@@ -1,0 +1,1 @@
+!function($){"use strict";$("a.page-scroll").bind("click",function(t){var e=$(this);$("html, body").stop().animate({scrollTop:$(e.attr("href")).offset().top-50},1250,"easeInOutExpo"),t.preventDefault()})}(jQuery);
