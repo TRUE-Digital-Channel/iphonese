@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="40px" height="40px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
     <title>Group</title>
     <desc>Created with Sketch.</desc>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Group">
             <g id="icn-info" fill="#000000" fill-rule="nonzero">
-                <circle id="Oval" cx="12" cy="12" r="12"></circle>
+                <circle id="Oval" style="fill-opacity: 0.3" cx="12" cy="12" r="12"></circle>
             </g>
             <g id="arrow-up-1" transform="translate(6.000000, 8.000000)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3">
                 <path d="M0,6.2911053 L5.67529412,0.616340598 L5.67529411,0.61634061 C5.83003799,0.461375963 6.08110675,0.461197022 6.23607352,0.615941246 C6.23620673,0.616074265 6.23633984,0.616207378 6.23647286,0.616340586 L11.911767,6.2911053" id="Path"></path>

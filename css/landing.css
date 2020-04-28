@@ -500,10 +500,8 @@ h1,h2,h3,h4 {
 
 .back-to-top {
   position: fixed;
-  right: 32px;
-  bottom: -32px;
-  height: 100px;
-  width: 100px;
+  right: 10px;
+  bottom: 10px;
 }
 .bestdeal img {
   max-width: 200px;
