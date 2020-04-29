@@ -523,7 +523,12 @@ h1,h2,h3,h4 {
 
 /*Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-
+    #prepaid-table-turner {
+        margin: 0px 145px;
+    }
+    #easypay-table-turner {
+        margin: 0px 50px;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -531,6 +536,12 @@ h1,h2,h3,h4 {
   .text-l {
     font-size: 1.8rem;
   }
+    #prepaid-table-turner {
+        margin: 0px 145px;
+    }
+    #easypay-table-turner {
+        margin: 0px 50px;
+    }
  
 }
 /* Medium devices (tablets, 768px and up) */
