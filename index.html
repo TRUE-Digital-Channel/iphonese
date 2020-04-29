@@ -344,12 +344,16 @@
         </div>
       </div>
       <div class="text-center">
-        <a href="#" id="showdeal" class="btn-bg-yellow mt-4">4G+ Extra Fun Unlimited</a>
+        <a href="#" id="showdeal1" data-target="#toggle1" class="btn-bg-yellow mt-4 accordion-toggle dormantState">4G+ Extra Fun Unlimited</a>
       </div>
         
       <!-- Hidden toggle options -->
-      <div class="toggle-content" style="display: none;">
-        <p>This is where the artwork will appear</p>  
+      <div class="accordion-content" id="toggle1">
+        <img src="http://placehold.it/600x200"
+          srcset="
+            http://placehold.it/600x200 600w"
+          alt="Placeholder" 
+        />  
       </div>
       <!-- end hidden toggle options -->
         
@@ -509,13 +513,21 @@
       </div>
     </div>
         
+    <div class="row justify-content-center mt-4">
       <div class="text-center">
-        <a href="#" id="showdeal" class="btn-bg-yellow mt-4">4G+ Extra Fun Unlimited</a>
+        <a href="#" data-target="#toggle2" class="btn-bg-yellow mt-4 accordion-toggle dormantState">4G+ Extra Fun Unlimited</a>
       </div>
+    </div>
         
       <!-- Hidden toggle options -->
-      <div class="toggle-content" style="display: none;">
-        <p>This is where the artwork will appear</p>  
+      <div class="accordion-content" id="toggle2">
+        <img src="http://placehold.it/600x200"
+          srcset="
+            http://placehold.it/600x200 600w"
+          sizes="
+             100vw"
+          alt="Placeholder" 
+        /> 
       </div>
       <!-- end hidden toggle options -->
         
@@ -720,14 +732,22 @@
         </div></a>
       </div>
     </div>
-
+    
+    <div class="row justify-content-center mt-4">
       <div class="text-center">
-        <a href="#" id="showdeal" class="btn-bg-yellow mt-4">4G+ Extra Smart</a>
+        <a href="#" data-target="#toggle3" class="accordion-toggle dormantState btn-bg-yellow mt-4">4G+ Extra Smart</a>
       </div>
+    </div>
         
       <!-- Hidden toggle options -->
-      <div class="toggle-content" style="display: none;">
-        <p>This is where the artwork will appear</p>  
+      <div class="accordion-content" id="toggle3">
+        <img src="http://placehold.it/600x200"
+          srcset="
+            http://placehold.it/600x200 600w"
+          sizes="
+             100vw"
+          alt="Placeholder" 
+        /> 
       </div>
       <!-- end hidden toggle options -->
     
@@ -876,12 +896,18 @@
       </div>
         
       <div class="text-center">
-        <a href="#" id="showdeal" class="btn-bg-yellow mt-4">4G+ Extra Fun Unlimited</a>
+        <a href="#" data-target="#toggle4" class="btn-bg-yellow mt-4 accordion-toggle dormantState">4G+ Extra Fun Unlimited</a>
       </div>
         
       <!-- Hidden toggle options -->
-      <div class="toggle-content" style="display: none;">
-        <p>This is where the artwork will appear</p>  
+      <div class="accordion-content" id="toggle4">
+        <img src="http://placehold.it/600x200"
+          srcset="
+            http://placehold.it/600x200 600w"
+          sizes="
+             100vw"
+          alt="Placeholder" 
+        /> 
       </div>
       <!-- end hidden toggle options -->
     </div>
@@ -1041,10 +1067,19 @@ $(document).ready(function() {
     // Scroll the window, stop any previous animation, stop on user manual scroll
     // Check https://github.com/flesler/jquery.scrollTo for more customizability
     $(window).stop(true).scrollTo(this.hash, {duration:600, interrupt:true});
-  });
-    $("#showdeal").click(function(){
-      $(".toggle-content").slideToggle();
-    });
+  });      
+});
+</script>
+
+<script>
+$(document).ready(function(){
+	var contentToggle = $(".accordion-toggle");
+	contentToggle.each(function() {
+             $(this).on('click',function(){
+                  var toggle_id = $(this).attr('data-target');
+                  $(toggle_id).slideToggle();
+             });
+        });
 });
 </script>
 

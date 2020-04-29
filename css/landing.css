@@ -219,6 +219,9 @@ h1,h2,h3,h4 {
   border-radius: 5px;
   box-shadow: 0 0 10px 0 rgba(255,255,255,0.50);
 }
+.toggle-content {
+    margin-top: 20px;
+}
 
 
 /* Logo */
@@ -483,6 +486,16 @@ h1,h2,h3,h4 {
 }
 .bc-badge-price {
   border-radius: 200px;
+}
+
+/* Accordions */
+.accordion-toggle {cursor: pointer; }
+.accordion-content {
+    display: none;
+    margin-top: 15px;
+    background: #eee; 
+    border: 1px solid: #ccc; 
+    padding: 5px; 
 }
 
 /* Modal */
