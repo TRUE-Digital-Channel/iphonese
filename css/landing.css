@@ -497,6 +497,15 @@ h1,h2,h3,h4 {
 
 /* Accordions */
 .accordion-toggle {cursor: pointer; }
+.accordion-toggle:after {
+    content: '\25B8';
+    margin-left: 5px;
+}
+/*new pseudo class for toggle the open/close icon*/
+.accordion-toggle.direction:after {
+    content: '\25BE';
+    margin-left: 5px;
+}
 .accordion-content {
     display: none;
     background: #eee; 
@@ -541,6 +550,9 @@ h1,h2,h3,h4 {
     .section-padder {
         padding-bottom: 50px 0px;
     }
+    .modal-dialog {
+        max-width: 80%;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -559,6 +571,9 @@ h1,h2,h3,h4 {
     }
     .section-padder {
         padding: 50px 0px;
+    }
+    .modal-dialog {
+        max-width: 80%;
     }
  
 }

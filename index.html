@@ -315,7 +315,7 @@
               <a href="#" class="btn-block btn-bg-yellow terms" data-toggle="modal" data-target="#modaltandc"><img src="images/icn-info.svg"> เงื่อนไขการจองและรายละเอียดแพ็คเกจ</a>
           </div>
           <div class="col-12 col-md-auto mb-3 text-center">
-            <a href="#" data-target="#toggle1" class="btn-bg-gray-small accordion-toggle dormantState">4G+ Extra Fun Unlimited</a>
+            <a href="#" data-target="#toggle1" class="btn-bg-gray-small accordion-toggle">4G+ Extra Fun Unlimited</a>
           </div>
         </div>
         
@@ -889,6 +889,7 @@ $(document).ready(function(){
              $(this).on('click',function(){
                   var toggle_id = $(this).attr('data-target');
                   $(toggle_id).slideToggle();
+                  $(this).toggleClass('direction');
              });
         });
 });
