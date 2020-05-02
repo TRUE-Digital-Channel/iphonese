@@ -499,7 +499,6 @@ h1,h2,h3,h4 {
 .accordion-toggle {cursor: pointer; }
 .accordion-content {
     display: none;
-    margin-top: 15px;
     background: #eee; 
     border: 1px solid: #ccc; 
     padding: 5px; 
@@ -536,6 +535,12 @@ h1,h2,h3,h4 {
     #easypay-table-turner {
         margin: 0px 50px;
     }
+    .bottom-section-padder {
+        padding-bottom: 50px;
+    }
+    .section-padder {
+        padding-bottom: 50px 0px;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -548,6 +553,12 @@ h1,h2,h3,h4 {
     }
     #easypay-table-turner {
         margin: 0px 50px;
+    }
+    .bottom-section-padder {
+        padding-bottom: 50px;
+    }
+    .section-padder {
+        padding: 50px 0px;
     }
  
 }
@@ -575,6 +586,12 @@ h1,h2,h3,h4 {
   .btn-bg-red h3,.btn-bg-red h3  {
     font-size: 1.5rem; 
   }
+    .section-padder {
+        padding: 30px 0px;
+    }
+    .bottom-section-padder {
+        padding-bottom: 30px;
+    }
   
 }
 
@@ -617,6 +634,12 @@ h1,h2,h3,h4 {
   .btn-bg-black h3{
     font-size: 1.4rem;
   }
+    .section-padder {
+        padding: 30px 0px;
+    }
+    .bottom-section-padder {
+        padding-bottom: 30px;
+    }
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
@@ -661,6 +684,12 @@ h1,h2,h3,h4 {
   .btn-bg-black h3{
     font-size: 1.4rem;
   }
+    .section-padder {
+        padding: 20px 0px;
+    }
+    .bottom-section-padder {
+        padding-bottom: 20px;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 413.98px) {
@@ -704,6 +733,12 @@ h4 {
   .btn-bg-black h3{
     font-size: 1.4rem;
   }
+    .section-padder {
+        padding: 20px 0px;
+    }
+    .bottom-section-padder {
+        padding-bottom: 20px;
+    }
 }
 
 @media (min-width: 0px) and (max-width: 320px) {
@@ -762,6 +797,12 @@ h4 {
   .btn-bg-black h3{
     font-size: 1.4rem;
   }
+    .section-padder {
+        padding: 20px 0px;
+    }
+    .bottom-section-padder {
+        padding-bottom: 20px;
+    }
 }
 
 /*************** SCROLLBAR BASE CSS ***************/
