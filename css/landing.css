@@ -558,7 +558,7 @@ h1,h2,h3,h4 {
         padding-bottom: 50px;
     }
     .section-padder {
-        padding: 50px 0px;
+        padding: 50px 15px;
     }
     .modal-dialog {
         max-width: 80%;
@@ -580,7 +580,7 @@ h1,h2,h3,h4 {
         padding-bottom: 50px;
     }
     .section-padder {
-        padding: 50px 0px;
+        padding: 50px 15px;
     }
     .modal-dialog {
         max-width: 80%;
@@ -612,7 +612,7 @@ h1,h2,h3,h4 {
     font-size: 1.5rem; 
   }
     .section-padder {
-        padding: 30px 0px;
+        padding: 30px 15px;
     }
     .bottom-section-padder {
         padding-bottom: 30px;
@@ -660,7 +660,7 @@ h1,h2,h3,h4 {
     font-size: 1.4rem;
   }
     .section-padder {
-        padding: 30px 0px;
+        padding: 30px 15px;
     }
     .bottom-section-padder {
         padding-bottom: 30px;
@@ -710,7 +710,7 @@ h1,h2,h3,h4 {
     font-size: 1.4rem;
   }
     .section-padder {
-        padding: 20px 0px;
+        padding: 20px 15px;
     }
     .bottom-section-padder {
         padding-bottom: 20px;
@@ -759,7 +759,7 @@ h4 {
     font-size: 1.4rem;
   }
     .section-padder {
-        padding: 20px 0px;
+        padding: 20px 15px;
     }
     .bottom-section-padder {
         padding-bottom: 20px;
@@ -823,7 +823,7 @@ h4 {
     font-size: 1.4rem;
   }
     .section-padder {
-        padding: 20px 0px;
+        padding: 20px 15px;
     }
     .bottom-section-padder {
         padding-bottom: 20px;
