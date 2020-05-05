@@ -522,6 +522,9 @@ h1,h2,h3,h4 {
     border: 1px solid: #ccc; 
     padding: 5px; 
 }
+picture.toggle-aw, picture.toggle-aw img {
+    width: 100%;
+}
 
 /* Modal */
 .modal-title, .modal-body, .btn-red-small {
